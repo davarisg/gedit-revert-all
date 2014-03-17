@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=revert_all
+IAge=3
+Name=Revert All
+Description=A plugin to revert all tabs
+Authors=Giorgos Davaris
+Copyright=Copyright © 2014 Giorgos Davaris
+Version=0.1
