@@ -1,0 +1,13 @@
+#!/bin/sh
+
+PLUGIN_DEST=~/.local/share/gedit/plugins/
+PLUGIN_NAME="revert_all"
+
+mkdir -p ${PLUGIN_DEST}
+
+if [ -e ${PLUGIN_DEST}/${PLUGIN_NAME} ]
+then
+  rm -r ${PLUGIN_DEST}/${PLUGIN_NAME}
+fi
+
+cp -rv ${PLUGIN_NAME} ${PLUGIN_DEST}
